@@ -53,7 +53,7 @@ cd data/processed
 cd data/processed/user_logs
 rm user_ipaddr*.log
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
-echo "server_logs user_logs event_logs" data/inventory.txt 
+echo "data/processed/server_logs data/processed/user_logs data/processed/event_logs" > data/inventory.txt 
 
 ###########################################
 
