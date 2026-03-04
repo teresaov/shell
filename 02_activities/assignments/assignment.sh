@@ -53,3 +53,7 @@ find ./data/processed -type f | sort > ./data/inventory.txt
 ###########################################
 
 echo "Project setup is complete!"
+
+git pull https://github.com/UofT-DSI/shell coworker-changes --no-rebase
+git status
+commit -m "Coworkers"
